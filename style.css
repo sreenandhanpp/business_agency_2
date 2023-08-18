@@ -35,7 +35,7 @@ p,label {
 .home {
     margin: 0;
     padding: 0;
-    background: url('images/pexels-pixabay-209151.jpg') no-repeat center fixed;
+    background: url('./images/home.jpg') no-repeat center fixed;
     background-size: cover;
     min-height: 100vh;
     background-position: center;
