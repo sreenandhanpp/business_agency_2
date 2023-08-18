@@ -271,8 +271,8 @@ p,label {
   .inner-sec{
     margin-bottom: 4rem;
   }
-  .card {
-    overflow:hidden;
+  .projects .card{
+    overflow: hidden;
   }
   h4 {
   font-size: 26px;
@@ -288,17 +288,17 @@ p,label {
   }
   
   .bg-intro {
-    background:url('/images/pexels-pixabay-209151.jpg') no-repeat center center;
+    background:url('./images/pexels-pixabay-209151.jpg') no-repeat center center;
     background-size:cover
   }
   
   .bg-intro-2 {
-    background:url("/images/pexels-pixabay-209151.jpg") no-repeat center center;
+    background:url("./images/pexels-pixabay-209151.jpg") no-repeat center center;
     background-size:cover
   }
   
   .bg-intro-3 {
-      background:url('/images/pexels-pixabay-209151.jpg') no-repeat top center;
+      background:url('./images/pexels-pixabay-209151.jpg') no-repeat top center;
     background-size:cover
   }
   
@@ -328,7 +328,7 @@ p,label {
 .footer-img {
     margin: 0;
     padding: 0;
-    background: url('/images/home.jpg') no-repeat center fixed;
+    background: url('./images/home.jpg') no-repeat center fixed;
     background-size: cover;
     min-height: 80vh;
     background-position: center;
