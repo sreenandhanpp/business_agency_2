@@ -305,14 +305,14 @@ p,label {
   
   
   
-  @media (max-width:756px) {
+  /* @media (max-width:756px) {
     .col-md-4 {
       height:300px;
       overflow:hidden;
       padding-left:1rem;
       padding-right:1rem;
     }
-  }
+  } */
 /*responsive*/
 
 @media (min-width:768px) and (max-width:991px){
@@ -439,11 +439,11 @@ p,label {
         }
       
         .footer-img{
-            min-height:45vh ;
+            min-height:50vh;
 
         }
         .footer .image-overlay-2{
-            max-height: 45vh;
+            max-height: 50vh;
         }
         .footer-row{
             padding-top: 6rem;
@@ -455,4 +455,7 @@ p,label {
         .inner-sec{
             margin-bottom: 1rem;
           }
+        .footer-icon{
+            margin-top:20px !important;
+        }
     }
